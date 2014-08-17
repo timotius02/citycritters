@@ -1,6 +1,9 @@
 body {
 	background-color: #2ecc71;
+	color: #000000;
 }
+
+
 
 #logo {
 	display: inline-block;
@@ -19,11 +22,11 @@ body {
 }
 
 .information h2 {
-	color: #f1c40f;
+	color: #000000;
 }
 
 .information h3 {
-	color: #f1c40f;
+	color: #000000;
 }
 
 #logo img {
