@@ -39,3 +39,8 @@ body {
 .container-navbar {
 	width: 1170px;
 }
+
+.navbar-fixed-top {
+	margin-right: -15px;
+	margin-left: -15px;
+}
