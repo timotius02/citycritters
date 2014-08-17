@@ -25,3 +25,7 @@ body {
 .information h3 {
 	color: #f1c40f;
 }
+
+#logo img {
+	width: 200px;
+}
