@@ -32,3 +32,11 @@ body {
 #logo img {
 	width: 200px;
 }
+
+.container {
+	background: rgba(255, 255, 255, .4);
+}
+
+.container-navbar {
+	width: 1170px;
+}
