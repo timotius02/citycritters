@@ -15,15 +15,14 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	float: right;
-	padding-top: 20px;
 }
 
 .information h2 {
-	color: #f1c40f;
+	color: #000000;
 }
 
 .information h3 {
-	color: #f1c40f;
+	color: #ffffff;
 }
 
 #logo img {
