@@ -37,13 +37,31 @@
     <script>
       function initialize() {
         var map_canvas = document.getElementById('map_canvas');
+
+        var myLatlng = new google.maps.LatLng(40.737157, -73.990035);
+
         var map_options = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
-          zoom: 8,
+          center: myLatlng,
+          zoom: 13,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
-        var map = new google.maps.Map(map_canvas, map_options)
+        var map = new google.maps.Map(map_canvas, map_options);
+
+
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Hello World!'
+        });
+        var myLatlng = new google.maps.LatLng(40.726158, -73.995729);
+                var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Hello World!'
+        });
       }
+
+
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
@@ -171,7 +189,7 @@
         <hr>
 
         <div class="row">
-            <div class="information col-md-8">
+            <div class="information col-md-6">
                 <h2>Our Adoption Process</h2>
                     <p>Adopters sometimes say jokingly that in New York City it's harder to adopt a cat than a child.<br>
                     Because our first responsibility is to the animals in our care, there is an application and interview process. Our goal is a provide our rescued animals with lifelong (perhaps 20 years) loving, stable, indoor homes. Our adoption process is similar to that of other animal rescue/adoption groups.</br>
@@ -186,12 +204,13 @@
                     <strong>Short term fosters</strong> involve animals who are immediately adoptable, who often need less than a month of foster care.<br>
                     You usually have first option to adopt your fostered animal. We reserve the right to approve the adoption of the fostered pet and to follow the normal adoption procedure.</p>
             </div>
-            <div class="col-md-4 locations">
+                <div class="col-md-6 locations">
                 <h3>Locations near you</h3>
+                <div id="map_canvas"></div>
+                </div
+                </div>
+                
             </div>
-        </div>
-
-        <div id="map_canvas"></div>
 
 
         <!-- Footer -->
@@ -211,6 +230,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
 
 </body>
 
