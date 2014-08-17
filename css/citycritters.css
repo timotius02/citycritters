@@ -1,6 +1,7 @@
 body {
 	background-color: #2ecc71;
 }
+
 #logo {
 	display: inline-block;
 	margin-left: auto;
@@ -8,8 +9,8 @@ body {
 }
 
 #adoption {
-	font-size: 70px;
-	font-family: Roboto, sans-serif;
+	font-size: 80px;
+	font-family: 'Droid Sans', sans-serif;
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
@@ -21,4 +22,6 @@ body {
 }
 .information h3 {
 	color: #f1c40f;
+	float: right;
+	padding-top: 50px;
 }
