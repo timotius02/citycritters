@@ -39,3 +39,19 @@ body {
 .container-navbar {
 	width: 1170px;
 }
+
+.navbar-fixed-top {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+#application {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#updates {
+	margin-left: 110px;
+	margin-top: 15px;
+}
