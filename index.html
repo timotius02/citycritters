@@ -42,7 +42,7 @@
 
         var map_options = {
           center: myLatlng,
-          zoom: 13,
+          zoom: 12,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(map_canvas, map_options);
@@ -54,7 +54,19 @@
           title: 'Hello World!'
         });
         var myLatlng = new google.maps.LatLng(40.726158, -73.995729);
-                var marker = new google.maps.Marker({
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Hello World!'
+        });
+
+         var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Hello World!'
+        });
+        var myLatlng = new google.maps.LatLng(40.764077, -73.961122);
+        var marker = new google.maps.Marker({
           position: myLatlng,
           map: map,
           title: 'Hello World!'
