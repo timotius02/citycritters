@@ -44,3 +44,9 @@ body {
 	margin-right: -15px;
 	margin-left: -15px;
 }
+
+#application {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
